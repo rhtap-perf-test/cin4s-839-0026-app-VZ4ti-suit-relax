@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ghap
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0026-tenant/cin4s-839-0026-app/devfile-sample-ghap@sha256:39ad7f3e8257276df1eb2dfbea85ec0c17b6f5581e36d966d503e7a345cd6f8d
         name: my-nodejs
         ports:
         - containerPort: 3001
